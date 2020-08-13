@@ -35,7 +35,6 @@ float determinant(float ** matrix, int size) {
 }
 
 
-//purely a test function that is not used in the calculations
 void test_disp(float ** matrix, int size) {
     for(int i = 0; i < size; ++i) {
         cout << endl;
