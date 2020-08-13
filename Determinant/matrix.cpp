@@ -1,15 +1,12 @@
 //functions for inputing a new matrix
 #include "determinant.h"
 
-//test functions prototype
-//this function allows for the input of matrices and will
-//hopefully (eventually) test the edge cases automatically
+
 float ** user_input_matrix(int & rows);
 void test_display(float ** matrix, int rows);
 void free_mem(float ** matrix, int rows);
 
-//main calls the user input function, displays the input matrix, calls
-//the rref function and then displays the result 
+
 int main() {
     int rows;
     float ** new_matrix = user_input_matrix(rows);
